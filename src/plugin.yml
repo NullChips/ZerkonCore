@@ -1,0 +1,80 @@
+name: Core
+version: 1.0
+author: NullChips
+main: me.nullchips.core.Core
+
+commands:
+    heal:
+        description: Heals a player.
+        aliases: [h]
+    teleport:
+        description: Teleport players or to players.
+        aliases: [tp]
+    tphere:
+        description: Teleports a player to the player who ran the command.
+    tpo:
+        description: Teleports players without anyone that isn't the player who ran the command knowing.
+    feed:
+        description: Feeds a player.
+        aliases: [f]
+    broadcast:
+        description: Broadcast a message to the server.
+    helpop:
+        description: Sends a message to all staff on the server. 
+    list:
+        description: Lists all the players on the server.
+    mute:
+        description: Mutes a player.
+    unmute:
+        description: Unmute a player.
+    broadcast:
+        description: Broadcast a message to the server.
+    clearchat:
+        description: Clears the chat on the players client.
+    gms:
+        description: Changes the players gamemode to survival.
+        aliases: [gm0]
+    gmc:
+        description: Changes the players gamemode to creative..
+        aliases: [gm1]
+    vanish:
+        description: Vanishes a player.
+        aliases: [v]
+    speed:
+        description: Changes the speed of the player entering the command.
+
+permissions:
+    core.heal:
+        description: Heal a player.
+        default: op
+    core.teleport:
+        description: Use any of the teleporting commands.
+        default: op
+    core.feed:
+        description: Feed a player.
+        default: op
+    core.helpop:
+        description: See helpop messages.
+        default: op
+    core.mute:
+        description: Mute a player.
+        default: op
+    core.broadcast:
+        description: Broadcast a message to the server.
+        default: op
+    core.clearchat:
+        description: Clear the chat.
+        default: true
+    core.gamemode:
+        description: The ability to change gamemodes.
+        default: op
+    core.vanish:
+        description: The ability to vanish.
+        default: op
+    core.vanish.see:
+        description: The ability to see vanished players.
+        default: op
+    core.speed:
+        description: Change speed.
+        default: op
+    
